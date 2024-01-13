@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.nav-bar{
+    height: 55px;
+    background: linear-gradient( 90deg ,blue, rgb(255, 0, 128));
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(flipkart.png);
+    background-size: cover;
+    height: 25px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 35px;
+    border-radius: 3px;
+    margin-right: 5px;
+  
+}
+
+.search-input{
+    width: 100%;
+    font-size: 0.9rem;
+    border: none ;
+    /* border-top-left-radius: 6px; */
+    /* border-bottom-left-radius: 6px; */
+    border: none;
+    outline: none;
+    padding: 5px 30px
+    
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#ffffff;
+    color: blue;
+}
+
+.nav-login{
+    padding: 6px 35px;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+   
+
+}
+
+.nav-login a {
+    color: blue;
+    font-weight: 550;
+    text-decoration: none;
+   
+}
+
+.seller{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 3px 8px;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.seller a {
+    text-decoration: none;
+    color: white;
+}
+
+.more{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 3px 8px;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+
+.nav-cart{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 3px 8px;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.nav-cart a {
+    text-decoration: none;
+    color: white;
+}
+/* panel */
+.pannel{
+    height: 50px;
+    background: linear-gradient(90deg, lightblue, lightpink);
+    color: rgb(0, 0, 154);
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    box-shadow: 1px 1px 1px grey;
+}
+.pannel-all{
+    margin-left: 10px;
+    padding: 4px 25px;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.pannel-all a {
+    text-decoration: none;
+    color: white;
+}
+
+.pannel-ops p{
+   
+    display: inline;
+    margin-left: 20px;
+    font-weight: 200;
+}
+.pannel-ops a{
+    text-decoration: none;
+    color: rgb(0, 0, 122);
+}
+
+.pannel-ops{
+    width: 70%;
+    font-size: 1rem;
+}
+.pannel-deals{
+    padding: 4px 25px;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: 3px 3px 3px black;
+}
+
+.pannel-deals a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.border{
+    border: 3px solid transparent;
+
+}
+
+.border:hover{
+    border: 3px solid rgb(25, 0, 255);
+   
+}
+
+.hero-sec {
+    margin-top: 10px;
+    background-image: url(hero.png);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 1px 1px 1px black;
+    
+}
+
+.hero-mes{
+    background-color: rgb(245, 245, 245);
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    width: 90%;
+    border-radius: 12px;
+    margin-bottom: 30px;
+
+}
+.hero-mes a{
+    color: #007185;
+    text-decoration: none;
+    
+}
+
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, blue,hotpink);
+    margin-top: 8px;
+}
+/* .box-content{
+    display: flex;
+    justify-content: space-evenly;
+} */
+.box{
+    /* border: 2px solid grey; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 7px 5px 5px black;
+
+}
+.box-image{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.view{
+    padding: 4px 115px;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    border-bottom-right-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+
+.view a {
+    text-decoration: none;
+    color: white;
+}
+
+.shop-section3{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, blue,hotpink);
+    margin-top: 0px;
+    height: 470px;
+    
+}
+
+.box3{
+    /* border: 2px solid grey; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 7px 5px 5px black;
+
+}
+
+.deals{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    background: linear-gradient(90deg, blue,hotpink);
+    margin-top: 15px;
+    
+}
+.deals h3 {
+    margin-left: 10px;
+    margin-top: 8px;
+    padding: 3px 15px;
+    background-color: white;
+    color: blue;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+}
+
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .nav-bar {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+
+    .nav-logo {
+        width: 100%;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .search-input {
+        border-radius: 3px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .shop-section, .shop-section3 {
+        flex-direction: column;
+    }
+
+    .hero-sec {
+        height: 250px;
+    }
+}
